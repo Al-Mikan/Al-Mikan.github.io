@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="A front-end template that helps you build fast, modern mobile web apps."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Al-Mikan</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="images/touch/chrome-touch-icon-192x192.png"
+    />
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="apple-touch-icon-precomposed.png"
+    />
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta
+      name="msapplication-TileImage"
+      content="images/touch/ms-touch-icon-144x144-precomposed.png"
+    />
+    <meta name="msapplication-TileColor" content="#3372DF" />
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link
+      href="//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="$$hosted_libs_prefix$$/$$version$$/material.grey-orange.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+
+    <div
+      class="
+        demo-blog demo-blog--blogpost
+        mdl-layout mdl-js-layout
+        has-drawer
+        is-upgraded
+      "
+    >
+      <main class="mdl-layout__content">
+        <div class="demo-back">
+          <a
+            class="
+              mdl-button mdl-js-button mdl-js-ripple-effect
+              mdl-button--icon
+            "
+            href="index.html"
+            title="go back"
+            role="button"
+          >
+            <i class="material-icons" role="presentation">arrow_back</i>
+          </a>
+        </div>
+        <div class="demo-blog__posts mdl-grid">
+          <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+            <div
+              class="mdl-color-text--grey-700 mdl-card__supporting-text meta"
+            >
+              <div class="minilogo"></div>
+              <div>
+                <strong>2021-12-21</strong>
+                <!-- <span>2 days ago</span> -->
+              </div>
+              <div class="section-spacer"></div>
+              <div class="mdl-card__media mdl-color-text--grey-50">
+                <h1 >Material Design LiteとGithub pagesでwebページを作ってみた！</h1>
+              </div>
+            </div>
+            
+            <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+              <p>
+                この記事は、<a href="https://qiita.com/advent-calendar/2021/huit">HUITアドベントカレンダー2021</a>の20日目の記事です。</br>
+                19日目→<a href="https://qiita.com/Kujiro/items/6ba4f468b4e7d221fab3">@Kujiroさんの記事</a>
+              </p>
+              <p>
+                本当はこの夏参加したハッカソンのことを書こうと思ったのですが、ブログをかっこよくすることにはまってしまったのでそのことについて書きます。
+              </p>
+              <!-- <h2 style=";">haikei</h2> -->
+              <p>
+                ブログを初めて書くにあたって、どのサイトを利用するか迷いました。<br>
+                平凡じゃつまらないし、かといって１から作る時間ない...
+                もちろんスマホにも対応させたい...
+                github pagesのテンプレださい...
+              </p>
+              <p>これらを解決させるために使用したものは以下の2つです<br>
+                ・Github Pages<br>
+                ・Material Design Lite
+              </p>
+              <h2>Github Pagesとは</h2>
+              <p>GitHubが提供するホスティングサービスで、webページをインターネット上に公開することができます。
+              </p>
+              <h2>Material Design Liteとは</h2>
+              <p>2015年にGoogleが発表したマテリアルデザイン仕様のWebサイトを構築するためのフロントエンドフレームワークです。
+                お試しで使ってみましたがとても楽で感動しました！ドキュメントもしっかりしています
+
+                そもそもマテリアルデザインとは、2014年にGoogleが発表した、モバイルOS「Android5.0(Lolipop)」より
+                採用されているデザインコンセプト(ガイドライン)です。
+              </p>
+              
+              <h2>さっそく使ってみる</h2>
+              <p>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </main>
+      <div class="mdl-layout__obfuscator"></div>
+    </div>
+    <script src="$$hosted_libs_prefix$$/$$version$$/material.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./back.js"></script>
+  </body>
+</html>
