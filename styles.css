@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
 body::before {
     background-size: cover;
     background-attachment: fixed;
@@ -37,7 +38,13 @@ body::before {
 body .demo-blog {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
-
+.blogTitle{
+    color: rgb(21, 22, 24);
+    margin-top: 40px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-family: 'Noto Serif', serif;
+}
 .demo-blog .demo-blog__posts {
   max-width: 900px;
   padding: 0;
@@ -52,7 +59,7 @@ body .demo-blog {
 }
 
 .demo-blog.mdl-layout .mdl-layout__content {
-  padding-top: 230px;
+  padding-top: 20px;
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
@@ -447,10 +454,10 @@ body .demo-blog {
 .demo-blog .minilogo {
   width: 44px;
   height: 44px;
-  background-image: url('images/avatar.png');
+  background-image: url('images/bb.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 100%;
   border-radius: 22px;
   background-color: #F5F5F5;
 }
@@ -477,6 +484,9 @@ body .demo-blog {
 .social-btn__twitter {
   background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png');
 }
+.social-btn__github {
+    background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_github_black_24dp.png');
+  }
 .social-btn__blogger {
   background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_facebook_black_24dp.png');
 }
