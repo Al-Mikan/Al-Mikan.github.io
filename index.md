@@ -1,1 +1,0 @@
-Al-Mikan's blog
