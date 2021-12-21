@@ -101,36 +101,74 @@
             
             <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
               <p>
-                この記事は、<a href="https://qiita.com/advent-calendar/2021/huit">HUITアドベントカレンダー2021</a>の20日目の記事です。</br>
+                これは、<a href="https://qiita.com/advent-calendar/2021/huit">HUITアドベントカレンダー2021</a>の20日目の記事です。</br>
                 19日目→<a href="https://qiita.com/Kujiro/items/6ba4f468b4e7d221fab3">@Kujiroさんの記事</a>
               </p>
               <p>
-                本当はこの夏参加したハッカソンのことを書こうと思ったのですが、ブログをかっこよくすることにはまってしまったのでそのことについて書きます。
+                本当はこの夏参加したハッカソンのことを書こうと思ったのですが、<a href="https://al-mikan.github.io/">ブログ</a>の外見をかっこよくすることにはまってしまったのでそのことについて書きます。
               </p>
               <!-- <h2 style=";">haikei</h2> -->
               <p>
-                ブログを初めて書くにあたって、どのサイトを利用するか迷いました。<br>
+                初めてブログを書くにあたり、どのサイトを利用するか迷いました。<br>
                 平凡じゃつまらないし、かといって１から作る時間ない...
                 もちろんスマホにも対応させたい...
-                github pagesのテンプレださい...
+                github pagesのテンプレはダサい...
               </p>
               <p>これらを解決させるために使用したものは以下の2つです<br>
+                <br>
+                <b>
                 ・Github Pages<br>
                 ・Material Design Lite
+                </b>
               </p>
+              <p>また、背景にアニメーションを付けてみました</p>
               <h2>Github Pagesとは</h2>
-              <p>GitHubが提供するホスティングサービスで、webページをインターネット上に公開することができます。
+              <p>みなさんおなじみだと思いますがGitHubが提供するホスティングサービスで、webページをインターネット上に公開することができます。
+                Github Pagesを使用するメリットとして<br>
+                <br>
+                ・無料<br>
+                ・githubアカウントがあればすぐに始められる<br>
+                ・レンタルサーバーを契約しなくていい<br>
+                ・余計なアカウントが増えない<br>
+                ・容量無限<br>
+                <br>
+                などが挙げられます。一方で、動的なものは実装できなく、gitの仕様やhtml,cssについて少し知っている必要があるので注意が必要です。
               </p>
               <h2>Material Design Liteとは</h2>
-              <p>2015年にGoogleが発表したマテリアルデザイン仕様のWebサイトを構築するためのフロントエンドフレームワークです。
-                お試しで使ってみましたがとても楽で感動しました！ドキュメントもしっかりしています
-
+              <p>2015年にGoogleが発表したマテリアルデザイン仕様のWebサイトを構築するための<b>フロントエンドフレームワーク</b>です。
+                お試しで使ってみましたがとても楽で感動しました！ドキュメントもしっかりしています<br>
+                <br>
                 そもそもマテリアルデザインとは、2014年にGoogleが発表した、モバイルOS「Android5.0(Lolipop)」より
-                採用されているデザインコンセプト(ガイドライン)です。
+                採用されているデザインコンセプト(ガイドライン)です。ユーザーの操作性を重視して感覚で理解できることを目的としているらしい...
               </p>
               
               <h2>さっそく使ってみる</h2>
               <p>
+                使い方は簡単で以下のタグを &lt;head&gt;内に埋め込むだけです。<br>
+                <br>
+                &lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"	&gt;<br>
+                &lt;link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"	&gt;<br>
+                &lt;script defer src="https://code.getmdl.io/1.3.0/material.min.js"	&gt;	&lt;/script	&gt;
+                <br>
+                <br>
+                今回使用するTempleteの他にもsliders,togglesなどの各種コンポーネントがあるので今後使ってみたいと思います！
+                詳しくは<a href="https://getmdl.io/components/index.html#textfields-section">こちら</a>をご覧ください。
+              </p>
+              <p>今回使用したTemplatesはこちら↓
+                <img src="./images/1-1.png" style="width: 100%;"/>
+                <br>
+                cardのcomponentが使用されていてとてもいい感じです！&#x2728;
+                ダウンロード後、ファイルの整理や修正などをしてもかかった時間は１時間程度でした。
+
+              </p>
+              <h2>アニメーション</h2>
+              <p>
+                <a href="https://vincentgarreau.com/particles.js/">particles.js</a>というライブラリを使用しました。
+                このライブラリにあるオンラインジェネレータではオリジナルの動きを作成できるのでおすすめです！
+              </p>
+              <h2>最後に</h2>
+              <p>
+                雑な感じになってしまいましたが、これで
               </p>
             </div>
           </div>
